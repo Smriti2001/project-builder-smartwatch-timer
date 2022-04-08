@@ -1,0 +1,100 @@
+body{
+    height: 150px;
+    width: 150px; 
+}
+.container{
+    border: 20px solid rgb(87, 83, 83);
+    border-right: 50px;
+    border-left: 50px;
+    border-radius: 20%;
+    background-color: black;
+    height: 200px;
+    width: 200px; 
+    position: relative;
+}
+.item{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    color: aliceblue;
+    padding: 50px 0;
+}
+#time2{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+#day{
+    font-size: 17px;
+    font-weight: none;
+    text-align: center;
+}
+#time1{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+    font-weight: none;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 10px;
+}
+/* .image1{
+padding: 20px 0;
+padding-left: 15px;
+text-align: start;
+} */
+.msgContainer,.musicContainer{
+    border: 1px solid white;
+    /* border-right: 50px;
+    border-left: 50px; */
+    border-radius: 20%;
+    background-color: white;
+    height: 160px;
+    width: 160px; 
+    margin:15px;
+    position:absolute;
+    display:none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align:center;
+}
+.msg1,.music1{
+    border: 1px solid white;
+    /* border-right: 50px;
+    border-left: 50px; */
+    border-radius: 20%;
+    background-color: white;
+    height: 160px;
+    width: 160px; 
+    margin:15px;
+    position:absolute;
+    display:none;
+}
+.msg2,music2{
+    border: 1px solid white;
+    /* border-right: 50px;
+    border-left: 50px; */
+    border-radius: 20%;
+    background-color: white;
+    height: 160px;
+    width: 160px; 
+    margin:15px;
+    position:absolute;
+    display:none;
+}
+.msg3,.music3{
+    border: 1px solid white;
+    /* border-right: 50px;
+    border-left: 50px; */
+    border-radius: 20%;
+    background-color: white;
+    height: 160px;
+    width: 160px; 
+    margin:15px;
+    position:absolute;
+    display:none;
+}
